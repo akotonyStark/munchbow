@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rainbow Munchies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/toastr.css">
+
+    <!-- Flatpickr -->
+    <link type="text/css" href="css/vendor-flatpickr.css" rel="stylesheet">
+    <link type="text/css" href="css/vendor-flatpickr.rtl.css" rel="stylesheet">
+    <link type="text/css" href="css/vendor-flatpickr-airbnb.css" rel="stylesheet">
+    <link type="text/css" href="css/vendor-flatpickr-airbnb.rtl.css" rel="stylesheet">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+
+    <style>
+        #pc-view {
+            display: block;
+        }
+        
+        #mobile-view {
+            display: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            #pc-view {
+                display: none;
+            }
+            #mobile-view {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <header role="banner">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Rainbow Munchies</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recipes.html">Menu</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown"> 
+                           <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <a class="dropdown-item" href="services.html">Food Catering</a>
+                                <a class="dropdown-item" href="services.html">Drink &amp; Beverages</a>
+                                <a class="dropdown-item" href="services.html">Wedding &amp; Birthday</a>
+                            </div> 
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li> -->
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item cta-btn">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END header -->
+
+
+    <div class="slider-wrap" id='mobile-view'>
+        <div class="slider-item" style="background-image: url('img/waakye_3.jpg');">
+            <div class="container">
+                <div class="row slider-text align-items-center justify-content-center">
+                    <div class="col-md-8 text-center col-sm-12 ">
+                        <h1 data-aos="fade-up">Delicious Food</h1>
+                        <p class="mb-5" data-aos="fade-up" data-aos-delay="100">The taste of delicious food that takes you down memory lane.</p>
+                        <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white" data-toggle='modal' data-target='#myModal'>Place Order</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- END slider -->
+    </div>
+
+    <div class="slider-wrap">
+        <section class="home-slider owl-carousel" id='pc-view'>
+
+
+            <div class="slider-item" style="background-image: url('img/sandwich_3.jpg');">
+                <div class="container">
+                    <div class="row slider-text align-items-center justify-content-center">
+                        <div class="col-md-8 text-center col-sm-12 ">
+                            <h1 data-aos="fade-up">Delecious Food</h1>
+                            <p class="mb-5" data-aos="fade-up" data-aos-delay="100">The taste of delicious food that takes you down memory lane.</p>
+                            <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white" data-toggle='modal' data-target='#myModal'>Place Order</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slider-item" style="background-image: url('img/waakye_3.jpg');">
+                <div class="container">
+                    <div class="row slider-text align-items-center justify-content-center">
+                        <div class="col-md-8 text-center col-sm-12 ">
+                            <h1 data-aos="fade-up">Tasty Food </h1>
+                            <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Offering you the best of Ghanaian food made with love.</p>
+                            <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white" data-toggle='modal' data-target='#myModal'>Place Order</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- END slider -->
+    </div>
+
+
+
+
+    <section class="section bg-light py-5  bottom-slant-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-left service-block" data-aos="fade-up" data-aos-delay="">
+                    <span class="wrap-icon"><span class="flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view d-block mb-4"></span></span>
+                    <h3 class="mb-2 text-primary">Breakfast</h3>
+                    <p>Considered the most important meal of the day, but it can also be one of the tastiest.</p>
+                </div>
+                <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-left service-block" data-aos="fade-up" data-aos-delay="100">
+                    <span class="wrap-icon"><span class="flaticon-dinner d-block mb-4"></span></span>
+                    <h3 class="mb-2 text-primary">Lunch</h3>
+                    <p>Discover the Munchbow Lunch sized menu with a variety of appetizing specials.</p>
+                </div>
+                <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-left service-block" data-aos="fade-up" data-aos-delay="200">
+                    <span class="wrap-icon"><span class="flaticon-cook d-block mb-4"></span></span>
+                    <h3 class="mb-2 text-primary">Supper</h3>
+                    <p>Let us make your stomach and dinner plate feel some heat with our complete menu listings.</p>
+                </div>
+                <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-left service-block" data-aos="fade-up" data-aos-delay="300">
+                    <span class="wrap-icon"><span class="flaticon-meat d-block mb-4"></span></span>
+                    <h3 class="mb-2 text-primary">Meat Eaters</h3>
+                    <p>If you love a good, delicious and juicy tasting meat...you have come to the right place.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section pb-0">
+        <div class="container">
+            <div class="row mb-5 justify-content-center" data-aos="fade">
+                <div class="col-md-7 text-center heading-wrap">
+                    <h2 data-aos="fade-up">Rainbow Munchies</h2>
+                    <p data-aos="fade-up" data-aos-delay="100">“One cannot think well, love well, sleep well, if one has not dined well.” ― Virginia Woolf, A Room of One's Own</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <img src="img/friedrice_5.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/about_1.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
+                    <img src="img/about_2.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/jollof.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section ">
+
+        <div class="clearfix mb-5 pb-5">
+            <div class="container-fluid mb-5">
+                <div class="row" data-aos="fade">
+                    <div class="col-md-12 text-center heading-wrap">
+                        <h2>Special Menu</h2>
+                        <p data-aos="fade-up" data-aos-delay="100">Orders from our special menu can only be made in numbers of 5 - 25 persons</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel centernonloop">
+
+                <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text">
+                        <p class="dishes-price" data-toggle='modal' data-target='#myModal'>$70.00</p>
+                        <h2 class="dishes-heading">Jollof (Family pack)</h2>
+                    </div>
+                    <img src="img/jollof.jpg" alt="" class="img-fluid">
+                </a>
+
+                <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="400">
+                    <div class="text">
+                        <p class="dishes-price" data-toggle='modal' data-target='#myModal'>$70.00</p>
+                        <h2 class="dishes-heading">Fried Rice (Family Pack)</h2>
+                    </div>
+                    <img src="img/friedrice_4.jpg" alt="" class="img-fluid">
+                </a>
+
+                <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text">
+                        <p class="dishes-price" data-toggle='modal' data-target='#myModal'>$55.00</p>
+                        <h2 class="dishes-heading">Kenkey (Family pack)</h2>
+                    </div>
+                    <img src="img/kenkey2.png" alt="" class="img-fluid">
+                </a>
+
+                <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text">
+                        <p class="dishes-price" data-toggle='modal' data-target='#myModal'>$70.00</p>
+                        <h2 class="dishes-heading">Waakye (Family pack)</h2>
+                    </div>
+                    <img src="img/waakye_2.jpg" alt="" class="img-fluid">
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- .section -->
+
+    <section class="section bg-light  top-slant-white bottom-slant-gray">
+
+        <div class="clearfix mb-5 pb-5">
+            <div class="container-fluid">
+                <div class="row" data-aos="fade">
+                    <div class="col-md-12 text-center heading-wrap">
+                        <h2>Our Menu</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <div class="sched d-block d-lg-flex">
+                        <div class="bg-image order-2" style="background-image: url('img/waakye.png');" data-aos="fade"></div>
+                        <div class="text order-1">
+                            <h3>Waakye </h3>
+                            <p> Gari<br> spagheti <br> vegetables... </p>
+                            <p class="text-primary h3">$15.00</p>
+                        </div>
+
+                    </div>
+
+                    <div class="sched d-block d-lg-flex">
+                        <div class="bg-image" style="background-image: url('img/friedrice_3.jpg');" data-aos="fade"></div>
+                        <div class="text">
+                            <h3>Fried Rice</h3>
+                            <p>Vegetables (onion, spring onion, carrots, bell peppers) <br>Eggs, Additional protein choice</p>
+                            <p class="text-primary h3">$15.00</p><br>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="sched d-block d-lg-flex">
+                        <div class="bg-image order-2" style="background-image: url('img/sandwich.jpg');" data-aos="fade"></div>
+                        <div class="text order-1">
+                            <h3>Chicken Sanwich</h3>
+                            <p> Breakfast<br><br><br></p>
+                            <p class="text-primary h3">$3.00</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sched d-block d-lg-flex">
+                        <div class="bg-image" style="background-image: url('img/jollof_2.jpg');" data-aos="fade"></div>
+                        <div class="text">
+                            <h3>Jollof (Family pack only)</h3>
+                            <p>With spagheti, Salad, stew/sauce, protein of choice and a gallon of velvet quencher (sobolo)</p>
+                            <p class="text-primary h3">$70.00</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <div class="sched d-block d-lg-flex">
+                        <div class="bg-image order-2" style="background-image: url('img/sandwich_2.jpg');" data-aos="fade"></div>
+                        <div class="text order-1">
+                            <h3>Chicken Sandwich </h3>
+                            <p> Breakfast<br><br><br></p>
+                            <p class="text-primary h3">$3.00</p>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="sched d-block d-lg-flex">
+                        <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+                        <div class="text">
+                            <h3>Fried Rice</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                            <p class="text-primary h3">$12.00</p>
+
+                        </div>
+
+                    </div> -->
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="sched d-block d-lg-flex">
+                        <div class="bg-image order-2" style="background-image: url('img/kenkey.png');" data-aos="fade"></div>
+                        <div class="text order-1">
+                            <h3>Kenkey</h3>
+                            <p>With <br> Onions <br> Tomatoes...</p>
+                            <p class="text-primary h3">$15.00</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="sched d-block d-lg-flex">
+                        <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+                        <div class="text">
+                            <h3>Jollof</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                            <p class="text-primary h3">$16.00</p>
+
+                        </div>
+
+                    </div> -->
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+    <!-- .section -->
+
+
+
+    <section class="section relative-higher">
+
+        <div class="clearfix mb-5 pb-5">
+            <div class="container-fluid">
+                <div class="row" data-aos="fade">
+                    <div class="col-md-12 text-center heading-wrap">
+                        <h2>Testimonial</h2>
+                        <!-- <span class="back-text">Testimonial</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="owl-carousel centernonloop2">
+                        <div class="slide" data-aos="fade-left" data-aos-delay="100">
+                            <blockquote class="testimonial">
+                                <p>&ldquo; Had some of the best waakye I've ever had in years from Rainbow Munchies. Guys, I highly recommend their menu to everyone who misses home. &rdquo;
+                                </p>
+                                <div class="d-flex author">
+                                    <img src="img/person_2.jpg" alt="" class="mr-4">
+                                    <div class="author-info">
+                                        <h4>Janet A. Amenyo</h4>
+                                        <p>Bronx, New York</p>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="slide" data-aos="fade-left" data-aos-delay="200">
+                            <blockquote class="testimonial">
+                                <p>&ldquo; I don't joke with my breakfast. And this is why I love Rainbow Munchies....they are always readily available to make me the best part of my day. &rdquo;
+                                </p>
+                                <div class="d-flex author">
+                                    <img src="img/person_1.png" alt="" class="mr-4">
+                                    <div class="author-info">
+                                        <h4>Augustine Akoto</h4>
+                                        <p>Bronx, New York</p>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="slide" data-aos="fade-left" data-aos-delay="300">
+                            <blockquote class="testimonial">
+                                <p>&ldquo; I love Sandwiches; and Rainbow Munchies makes one of the best Sandwiches in New York. Amazing!!!! &rdquo;
+                                </p>
+                                <div class="d-flex author">
+                                    <img src="img/person_3.jpg" alt="" class="mr-4">
+                                    <div class="author-info">
+                                        <h4>Vanessa Freeman</h4>
+                                        <p>Virginia</p>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- .section -->
+
+    <section class="section  bg-light top-slant-white">
+        <div class="clearfix mb-5 pb-5">
+            <div class="container-fluid">
+                <div class="row" data-aos="fade">
+                    <div class="col-md-12 text-center heading-wrap">
+                        <h2>FAQ</h2>
+                        <!-- <span class="back-text">Our Blog</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="owl-carousel centernonloop2">
+                <div class="row">
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_1.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">How far in advance can I place my order?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Sep 22, 2020</span> <br>
+                                </p>
+                                <p>Orders can be placed up to 4 weeks in advance.</p><br>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_2.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">Can I order catering the same day as my event?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Sep 30, 2020</span> <br>
+                                </p>
+                                <p>Sadly no. For catering above 10 people, order at least two weeks in advance for adequate provisions to be made</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_1.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">How many will each catering serving item serve?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Aug 11, 2020</span> <br>
+                                </p>
+                                <p>Each catering package will serve between 5-7 adults</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_2.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">Are plates/utensils included in my order?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Aug 20, 2020</span> <br>
+                                </p>
+                                <p>Yes. Plates, serving utensils and cutlery are all included in your order</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_1.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">Can I reheat the food in a microwave?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> August 29, 2020</span> <br>
+                                </p>
+                                <p>Yes, the containers are microwave safe, however not oven safe. Food can also be held in the hot containers through chafing dish setups and stereo kits.</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_2.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">Is delivery available near me?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Sep 22, 2020</span> <br>
+                                </p>
+                                <p>Unfortunately, we haven't established our delivery system. If an order is made early, we can come to a suitable arrangement for delivery.</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_1.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">If I have a party of 10, what should I order?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Sep 22, 2020</span> <br>
+                                </p>
+                                <p>Two (2) family size packages.</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_2.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">How do I edit, change or cancel my order?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Sep 30, 2020</span> <br>
+                                </p>
+                                <p>Call directly and speak to the manager or a representative.</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_1.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">Will cups and ice be served with my beverage?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> August 15, 2020</span> <br>
+                                </p>
+                                <p>Yes. 6 cups will be given for each gallon beverage bag. Ice is available upon request.</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="blog d-block">
+                            <!-- <a class="bg-image d-block" href="#" style="background-image: url('img/dishes_2.jpg');"></a> -->
+                            <div class="text">
+                                <h3><a href="#">Who do I contact for additional questions?</a></h3>
+                                <p class="sched-time">
+                                    <span><span class="fa fa-calendar"></span> Sep 22, 2020</span> <br>
+                                </p>
+                                <p>Please contact us online through our website, send us an email or a whatsapp message. Our response time is quick.</p>
+
+                                <!-- <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- .section -->
+
+    <footer class="site-footer" role="contentinfo">
+
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4 mb-5">
+                    <h3>About Us</h3>
+                    <p class="mb-5">Rainbow Munchies is a catering service that aims to provide tasty, delicious and healthy Ghanaian dishes that makes its customers feel like home.</p>
+                    <ul class="list-unstyled footer-link d-flex footer-social">
+                        <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-5 mb-5">
+                    <div class="mb-5">
+                        <h3>Opening Hours</h3>
+                        <p><strong class="d-block font-weight-normal text-black">Saturdays & Sundays</strong> 9:30am - 7:00pm</p>
+                        <p><strong class="d-block font-weight-normal text-black">All orders must be made by 9:00PM a day in advance </strong></p>
+                    </div>
+                    <div>
+                        <h3>Contact Info</h3>
+                        <ul class="list-unstyled footer-link">
+                            <li class="d-block">
+                                <span class="d-block text-black">Address:</span>
+                                <span> Bronx, NY, 10475, United States</span></li>
+                            <li class="d-block"><span class="d-block text-black">Phone:</span><span>+1 347 2023 053</span></li>
+                            <li class="d-block"><span class="d-block text-black">Email:</span><span>munchshop360@gmail.com</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Disclaimers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-md-center text-left">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved Rainbow Munchies - Akwaaba Evolution <p hidden>| This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END footer -->
+
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
+
+    <!-- Modal Order-->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #FF7404;">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+
+                    <h5 style="color: white;" class="modal-title"><i class="fa fa-heart text-danger" aria-hidden="true"></i> Place Order</h5>
+                    <h5 id='bill' style="color: white; float:right" class="modal-title"><label>$</label>0.00</h5>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row" id="orderSelection">
+
+                        <div class="col-md-12 form-group">
+                            <!-- <label for="name">Name</label><label style="color: #FF7404;">*</label> -->
+                            <textarea type="text" id="orderValue" class="form-control " placeholder="Your order" disabled></textarea>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <!-- <label for="name">Name</label><label style="color: #FF7404;">*</label> -->
+                            <input type="text" id="customerName" class="form-control " placeholder="Name">
+
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <!-- <label for="phone">Phone</label><label style="color: #FF7404;">*</label> -->
+                            <input type="text" id="phone" class="form-control " placeholder="Phone Number">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <!-- <label for="email">Email</label><label style="color: #FF7404;">*</label> -->
+                            <input type="email" id="email" class="form-control " placeholder="Email">
+                        </div>
+
+                        <div class="col-md-3 form-group">
+                            <!-- <label for="orderDate">Date</label><label style="color: #FF7404;">*</label> -->
+                            <!-- <input id="orderDate" type="text" class="form-control" placeholder="mm-dd-yyyy"> -->
+                            <select class="form-control" name="order" id="pickupDay" style="height: fit-content;">
+                                <option value="" disabled selected>Pickup Day</option>
+                                <!-- <option value="Friday">Friday</option> -->
+                                <option value="Saturday">Saturday</option>
+                                <option value="Sunday">Sunday</option>
+                              
+  
+                                
+                              </select>
+
+                        </div>
+
+                        <div class="col-md-3 form-group">
+                            <!-- <label for="orderDate">Date</label><label style="color: #FF7404;">*</label> -->
+                            <!-- <input id="orderTime" type="text" class="form-control" placeholder="mm-hh-ss"> -->
+                            <select class="form-control" name="pickupTime" id="pickupTime" style="height: fit-content;">
+                                <option value="" disabled selected>Pickup time</option>
+                                <!-- <option value="">7am - 8am</option>
+                                <option value="">8am - 9am</option>
+                                <option value="">9am - 10am</option> -->
+                                <option value="">10am - 11am</option>
+                                <option value="">11am - 12pm</option>
+                                <option value="">12pm - 1pm</option>
+                                <option value="">1pm - 2pm</option>
+                                <option value="">2pm - 3pm</option>
+                                <option value="">3pm - 4pm</option>
+                                <option value="">4pm - 5pm</option>
+                                <option value="">5pm - 6pm</option>
+                                <option value="">6pm - 7pm</option>
+                                <option value="">7pm - 8pm</option>                                                            
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <!-- <label for="food">Food Order</label><label style="color: #FF7404;">*</label> -->
+                            <select class="form-control" name="order" id="order" style="height: fit-content;" onchange="calcBill(); displayOrder(); listenForFamilyPack();">
+                              <option value="" disabled selected>Select your food choice</option>
+
+                              <option value="3.00">Sandwich</option>
+
+                              <option value="70.00">Jollof (Family Pack)</option>
+                              <!-- <option value="15.00">Jollof, spaghetti, coleslaw, Chicken</option>
+                              <option value="15.00">Jollof, spaghetti, coleslaw, Fried Fish</option>
+                              <option value="15.00">Jollof, spaghetti, coleslaw, Goat meat</option>
+                              <option value="15.00">Jollof, spaghetti, coleslaw, Beef</option> -->
+
+                              <option value="70.00">Waakye (Family Pack)</option>
+                              <option value="15.00">Waakye, Gari, spaghetti, Veggies, Egg</option>
+                              <option value="15.00">Waakye, Gari, spaghetti, Veggies, Egg</option>
+                              <option value="15.00">Waakye, Gari, spaghetti, Veggies, Egg</option>
+                              <option value="15.00">Waakye, Gari, spaghetti, Veggies, Egg</option>
+
+                              <option value="70.00">Fried Rice (Family Pack)</option>
+                              <option value="15.00">Fried Rice, Veggies, Eggs, Beef</option>
+                              <option value="15.00">Fried Rice, Veggies, Eggs, Chicken</option>
+                              <option value="15.00">Fried Rice, Veggies, Eggs, Goat meat</option>
+                              <option value="15.00">Fried Rice, Veggies, Eggs, Fried Fish</option>
+                              
+                              <option value="55.00">Kenkey (Family Pack)</option>
+                              <option value="15.00">Kenkey, onions, Tomatoes, Fried fish</option>
+                              <option value="15.00">Kenkey, onions, Tomatoes, Goat meat</option>
+                              <option value="15.00">Kenkey, onions, Tomatoes, Beef</option>
+                              <option value="15.00">Kenkey, onions, Tomatoes, Chicken</option>
+                         
+                            </select>
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <!-- <label for="quantity">Quantity</label><label style="color: #FF7404;">*</label> -->
+                            <input type="number" id="quantity" min="0" class="form-control " placeholder="Quantity" onchange="recalcBill(); checkFields(); displayOrderWithNum()">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <select class="form-control inspector" name="addons" id="addons" style="height: fit-content;" onchange="checkFields(); enableOrderQuan();">
+                                <option value="" disabled selected>Select your add-ons</option>
+                                <option value="2">Egg</option>
+                                <option value="5">Chicken</option>
+                                <option value="5">Goat meat</option>
+                                <option value="5">Beef</option>
+                                <option value="5">Fried Fish</option>
+                                <option value="5">Kelewele</option> 
+                                <option value="2.5">Salad</option> 
+                                <option value="3">Velvet Quencher (Sobolo)</option>                         
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="number" disabled id="addOnQuantity" min="0" class="form-control " placeholder="Add-on Quantity" onchange="checkFields(); updateOrderDisplay();">
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12 form-group">
+                            <!-- <label for="orderDate">Date</label><label style="color: #FF7404;">*</label> -->
+                            <input type="text" id="note" class="form-control " placeholder="any specifications about your order" onblur="checkFields();">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" style="background-color: #FF7404;" class="btn btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="button" id="submitButt" class="btn btn-success btn-sm" data-toggle='modal' data-target="#cart-modal" data-dismiss="modal" onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal Cart -->
+    <div id="cart-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #FF7404;">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+
+                    <h5 style="color: white;" class="modal-title"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Food Basket</h5>
+                    <h5 id='finalBill' style="color: white; float:right" class="modal-title"><label>$</label>0.00</h5>
+
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group" id="cartGroup">
+                        <!-- <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Waakye
+                            <span class="badge badge-primary badge-pill">$15.00</span>
+                        </li>
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Sandwich
+                            <span class="badge badge-primary badge-pill">$3.00</span>
+                        </li> -->
+
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-sm" id='cancelProcess' data-dismiss="modal">Cancel</button>
+                    <button type="button" id='addItem' style="background-color: #FF7404;" class="btn btn-sm" data-toggle='modal' data-target="#myModal" data-dismiss="modal">Add Item</button>
+                    <button type="button" id="checkout" class="btn btn-success btn-sm" data-toggle='modal' data-target="#confirm-modal" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal Confrim -->
+    <div id="confirm-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #FF7404;">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+
+                    <h5 style="color: white;" class="modal-title"><i class="fa fa-heart text-danger" aria-hidden="true"></i> Confirm Order</h5>
+
+                </div>
+                <div class="modal-body">
+
+
+                    <p>
+                        <center>
+                            Your total bill came to...
+                            <h2 id='confirmBill'>$0.00</h2>
+                            Would you like to confirm your order?
+                        </center>
+
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" style="background-color: #FF7404;" class="btn btn-sm" data-toggle='modal' data-target="#myModal" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-success btn-sm" onclick="sendOrder()">Yes</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal Family Pack -->
+    <div id="family-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #FF7404;">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+
+                    <h5 style="color: white;" class="modal-title"><i class="flaticon-meat" aria-hidden="true"></i> Protein Choice</h5>
+
+                </div>
+                <div class="modal-body">
+
+
+                    <p>
+                        <center>
+                            <select class="form-control" name="proteinChoice" id="proteinChoice" style="height: fit-content;">
+                                <option value="" disabled selected>Select Protein Choice</option>
+                                <option value="with chicken">Chicken </option>
+                                <option value='with beef'>Beef</option>
+                                <option value='with goat meat'>Goat Meat</option>
+                                <option value='with Fish'>Fish</option>
+                            </select>
+                        </center>
+
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" style="background-color: #FF7404;" class="btn btn-sm" data-toggle='modal' data-target="#myModal" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success btn-sm" onclick="addFamilyPackProtein()" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <!-- Flatpickr -->
+    <script src="js/flatpickr.min.js"></script>
+    <script src="js/flatpickr.js"></script>
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/toastr.js"></script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
